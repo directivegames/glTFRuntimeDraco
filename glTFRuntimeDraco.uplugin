@@ -18,7 +18,10 @@
 		{
 			"Name": "glTFRuntimeDraco",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"PS5"
+			]
 		}
 	],
 	"Plugins": [
